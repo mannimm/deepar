@@ -1,6 +1,6 @@
-from keras import backend as K
-from keras.initializers import glorot_normal
-from keras.layers import Layer
+from tensorflow.keras import backend as K
+from tensorflow.keras.initializers import glorot_normal
+from tensorflow.keras.layers import Layer
 
 
 class GaussianLayer(Layer):
