@@ -1,8 +1,8 @@
 from deepar.model import NNModel
 from deepar.model.layers import GaussianLayer
-from tensorflow.keras.layers import Input, Dense, Input, LSTM
-from tensorflow.keras.models import Model
-from tensorflow.keras import backend as K
+from keras.layers import Input, Dense, Input, LSTM
+from keras.models import Model
+from keras import backend as K
 import logging
 from deepar.model.loss import gaussian_likelihood
 import numpy as np
